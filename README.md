@@ -3,9 +3,9 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : METTETAL
+- PRÉNOM : Charlotte
+- GROUPE : C2
 - URL du site :
 - URL FIGMA :
 
