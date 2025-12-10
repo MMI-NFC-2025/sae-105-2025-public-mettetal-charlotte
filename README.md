@@ -7,7 +7,7 @@
 - PRÉNOM : Charlotte
 - GROUPE : C2
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/FrBb3KgjczlTiY0gNQxEQ6/METTETAL-Charlotte-C2_maquette_site_Jumelages?node-id=85-454&t=VO31x4sq087kTq0U-1
 
 ## Sujet
 
