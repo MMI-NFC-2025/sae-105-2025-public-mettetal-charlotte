@@ -14,8 +14,8 @@
         <link rel="manifest" href="/assets/favicon/site.webmanifest" />
     </head>
     <body>
-    <header>
-        <a href="/">
+    <header class="header">
+        <a classe="header_logo" href="/">
         <h1>Festival Jumelages</h1>
         <img src="assets/images/festivalcartoon1.webp" alt="Image du festival en version cartoon">
         <img src="assets/Icons/logo.svg" alt="Logo du festival Jumelages">
@@ -27,7 +27,7 @@
         aria-controls="mainNav">
         <span
             class="menu-btn_bar menu-btn_bar--top"
-            aria-hidden="true"</span>
+            aria-hidden="true" </span>
         <span
             class="menu-btn_bar menu-btn_bar--middle"
             aria-hidden="true"></span>
@@ -35,13 +35,23 @@
             class="menu-btn_bar menu-btn_bar--bottom"
             aria-hidden="true"></span>
         </button>
-        <nav>
-            <ul>
-                <li><a href="/a_propos.html">À propos</a></li>
-                <li><a href="/programme.html">Programme</a></li>
-                <li><a href="/artistes.html">Artistes invités</a></li>
-                <li><a href="/scènes.html">Scènes</a></li>
-                <li><a href="/infos_pratiques.html">Informations pratiques</a></li>
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__list u-list-unstyled">
+                <li classe="menu__item">
+                    <a href="/a_propos.html">À propos</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/programme.html">Programme</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/artistes.html">Artistes invités</a>
+                </li>
+                <li classe="menu__item">
+                    <a href="/scènes.html">Scènes</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/infos_pratiques.html">Informations pratiques</a>
+                </li>
             </ul>
     </nav>
     </header>
@@ -59,36 +69,36 @@
         <button>Billetterie</button>
         </div>
     </main>  
-    <footer>
-        <p>
+    <footer class="footer">
+        <p class="footer__text">
             En partenariat avec la ville de Montbéliard Crédit Mutuel Borgogne Franche-Comté
         </p>
         <a href="/formulaire_de_contact.html">Formulaire de contact</a>
-        <address>
+        <address class="footer__infos">
             <p> 
-                <a href="tel:+33384661809">03 84 66 18 09</a>
+                <a class="footer__tel" href="tel:+33384661809">03 84 66 18 09</a>
             </p>
-            <p>
+            <p class="footer__address">
                 Parc du Près-la-Rose, 25200 Montbéliard
             </p>
             <p>
-                <a href="mailto:festival-jumelages@gmail.com">festival-jumelages@gmail.com</a>
+                <a class="footer__mail" href="mailto:festival-jumelages@gmail.com">festival-jumelages@gmail.com</a>
             </p>
         </address>
         <p>Réseaux sociaux</p>
         <ul>
-            <li>
-                <a href="https://www.instagram.com/festivaljumelages" target="_blank">
+            <li class="footer__item">
+                <a class="footer__link footer__link--silent" href="https://www.instagram.com/festivaljumelages" target="_blank">
                     <img src="assets/Icons/instagram.svg" alt="Logo Instagram">
                 </a>
             </li>
-            <li>
-                <a href="https://www.facebook.com/festivaljumelages" target="_blank">
+            <li class="footer__item">
+                <a class="footer__link footer__link--silent" href="https://www.facebook.com/festivaljumelages" target="_blank">
                     <img src="assets/Icons/facebook.svg" alt="Logo Facebook">
                 </a>
             </li>
-            <li>
-                <a href="https://www.tiktok.com/festivaljumelages" target="_blank">
+            <li class="footer__item">
+                <a class="footer__link footer__link--silent" href="https://www.tiktok.com/festivaljumelages" target="_blank">
                     <img src="assets/Icons/tiktok.svg" alt="Logo tiktok">
                 </a>
         </ul>
