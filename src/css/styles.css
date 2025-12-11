@@ -1,2 +1,12 @@
+/*Vendors*/
+@import "vendors/normalize.css";
+
+/*Utils*/
 @import "utils/variables.css";
+
+/*Base*/
 @import "base/main.css";
+
+/*Layout*/
+
+/*Components*/

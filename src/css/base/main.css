@@ -1,3 +1,22 @@
-::selection{
-    backgroud-color: var(--bleu-clair);
+* {
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--fonts-font-texte);
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.03rem;
+    color: black;
+}
+
+h1,
+h2{
+    font-weight:600;
+    letter-spacing: -0.05rem;
+    color: var(--jaune-vert);
 }
