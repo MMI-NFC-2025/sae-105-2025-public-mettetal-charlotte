@@ -1,0 +1,32 @@
+:root 
+[data-theme="Mode 1"] {
+    /* color */
+    --jaune: #ffeb55;
+    --jaune-vert: #c0af2b;
+    --bleu-clair: #80ceff;
+    --bleu-foncé: #4093ff;
+    --jaune-ocre: #f9c701;
+}
+
+[data-theme="Mode 1"] {
+    /* number */
+    --texte-texte-2: 1.25rem;
+    --texte-texte-1: 1.5rem;
+    --texte-h4: 1.875rem;
+    --texte-h3: 2rem;
+    --texte-h1: 3rem;
+    --texte-h2: 3rem;
+    /* string */
+    --fonts-font-texte: comics sans ms;
+    --fonts-font-titre: margarine;
+}
+
+[data-theme="Mode 1"] {
+    /* number */
+    --texte-1: 0.125rem;
+    --texte-2: 0.25rem;
+    --h1: 0.5rem;
+    --h2: 0.75rem;
+    --h3: 1rem;
+    --h4: 1.25rem;
+}

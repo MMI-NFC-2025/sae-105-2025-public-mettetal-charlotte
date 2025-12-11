@@ -7,6 +7,7 @@
     <meta name="description"
         content="Festvial Jumelages, un évenement tout nouveau à Montbéliard qui se tiendra du 28 au 30 août 2026, au parc du Près-la-Rose." />
     <title>Festival Jumelages</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
     <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
     <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
@@ -15,22 +16,34 @@
 </head>
 
 <body>
-    <header>
-        <a href="/">
+    <header class="header">
+        <a classe="header_logo" href="/">
             <h1>Festival Jumelages</h1>
             <img src="assets/images/festivalcartoon1.webp" alt="Image du festival en version cartoon">
             <img src="assets/Icons/logo.svg" alt="Logo du festival Jumelages">
         </a>
-        <button>
-            <span></span>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn_bar menu-btn_bar--top" aria-hidden="true" </span>
+                <span class="menu-btn_bar menu-btn_bar--middle" aria-hidden="true"></span>
+                <span class="menu-btn_bar menu-btn_bar--bottom" aria-hidden="true"></span>
         </button>
-        <nav>
-            <ul>
-                <li><a href="/a_propos.html">À propos</a></li>
-                <li><a href="/programme.html">Programme</a></li>
-                <li><a href="/artistes.html">Artistes invités</a></li>
-                <li><a href="/scènes.html">Scènes</a></li>
-                <li><a href="/infos_pratiques.html">Informations pratiques</a></li>
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__list u-list-unstyled">
+                <li classe="menu__item">
+                    <a href="/a_propos.html">À propos</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/programme.html">Programme</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/artistes.html">Artistes invités</a>
+                </li>
+                <li classe="menu__item">
+                    <a href="/scènes.html">Scènes</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/infos_pratiques.html">Informations pratiques</a>
+                </li>
             </ul>
         </nav>
     </header>
