@@ -1,0 +1,7 @@
+.footer {
+    background: var(--jaune-ocre);
+    background-size: cover;
+    padding: var(--space-6px);
+}
+
+.footer__text

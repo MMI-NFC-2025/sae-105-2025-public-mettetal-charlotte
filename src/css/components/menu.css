@@ -1,0 +1,58 @@
+.menu{
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-4px)
+}
+
+.menu::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-color: var(--bleu-clair);
+}
+
+.menu__list{
+    position: relative;
+    z-index: 3;
+    margin-top: 6rem;
+}
+
+.menu__item{
+    margin-bottom: var(--space-8px);
+}
+
+.menu-btn{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-btn_bar{
+    background: var(--bleu-clair);
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    border-radius: 2px;
+    left: 0;
+    z-index:10; 
+}
+
+.menu-btn_bar--top{
+    top: 6px;
+}
+
+.menu-btn_bar--middle{
+    top: 6px;
+}
+
+.menu-btn_bar--bottom{
+    bottom: 6px;
+}
