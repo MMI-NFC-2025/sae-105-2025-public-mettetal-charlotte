@@ -1,14 +1,11 @@
-:root 
-[data-theme="Mode 1"] {
+:root {
     /* color */
     --jaune: #ffeb55;
     --jaune-vert: #c0af2b;
     --bleu-clair: #80ceff;
     --bleu-foncé: #4093ff;
     --jaune-ocre: #f9c701;
-}
 
-[data-theme="Mode 1"] {
     /* number */
     --texte-texte-2: 1.25rem;
     --texte-texte-1: 1.5rem;
@@ -19,9 +16,7 @@
     /* string */
     --fonts-font-texte: comics sans ms;
     --fonts-font-titre: margarine;
-}
 
-[data-theme="Mode 1"] {
     /* number */
     --texte-1: 0.125rem;
     --texte-2: 0.25rem;
