@@ -54,19 +54,30 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <p class="hero__intro">
-                Venez vous amuser au festival Jumelages, au parc du Prés-la-Rose à Montbéliard. Ce festival à lieu du 18
-                août au 30 août 2026.
-            </p>
-            <img src="assets/Icons/cardinfos.svg" alt="Soleil pour présenter le programme du festival">
-            <p><a href="/programme.html">Programme</a></p>
-            <img src="assets/Icons/cardinfos.svg" alt="Soleil pour présenter les onfis pratiques du festival">
-            <p><a href="/infos_pratiques.html">Informations pratiques</a></p>
-            <img src="assets/Icons/cardinfos.svg" alt="Soleil pour présenter les artistes invités au festival">
-            <p><a href="/artistes.html">Artistes invités</a></p>
-            <button>Billetterie</button>
-        </div>
+        <section class="hero">
+            <div class="hero__content">
+                <p class="hero__intro">
+                    Venez vous amuser au festival Jumelages, au parc du Prés-la-Rose à Montbéliard. Ce festival a lieu
+                    du 18
+                    août au 30 août 2026.
+                </p>
+                <a class="btn btn--primary" href="#">Billetterie</a>
+            </div>
+            <div class="hero__cards">
+                <a class="hero__card" href="/programme.html">
+                    <img src="assets/Icons/cardinfos.svg" alt="Soleil pour présenter le programme du festival">
+                    <span>Programme</span>
+                </a>
+                <a class="hero__card" href="/infos_pratiques.html">
+                    <img src="assets/Icons/cardinfos.svg" alt="Soleil pour présenter les infos pratiques du festival">
+                    <span>Informations pratiques</span>
+                </a>
+                <a class="hero__card" href="/artistes.html">
+                    <img src="assets/Icons/cardinfos.svg" alt="Soleil pour présenter les artistes invités au festival">
+                    <span>Artistes invités</span>
+                </a>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <p class="footer__text">
@@ -106,10 +117,5 @@
         </ul>
     </footer>
 </body>
+
 </html>
-
-
-
-
-
-

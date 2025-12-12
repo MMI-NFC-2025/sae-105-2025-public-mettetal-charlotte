@@ -13,5 +13,6 @@
 @import "layout/footer.css";
 
 /*Components*/
-@import "components/menu.css"; 
+@import "components/menu.css";
 @import "components/carousel.css";
+@import "components/hero.css";
