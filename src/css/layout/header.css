@@ -5,6 +5,7 @@
     padding: var(--space-2xl) var(--space-4xl);
 }
 
+
 .header__logo {
     display: flex;
     flex-direction: column;
