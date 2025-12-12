@@ -1,13 +1,26 @@
-.header{
-    positions: absolute;
-    left:0;
-    width:100%;
+.header {
+    position: relative;
+    left: 0;
+    width: 100%;
     padding: var(--space-2xl) var(--space-4xl);
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
 }
-.header_link{
+
+/* place le logo / titre à gauche */
+.header__logo {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-8px);
+}
+
+/* bouton menu positionné à droite, sous la première image (fallback) */
+.header__menu-btn {
+    position: absolute;
+    right: var(--space-4xl);
+    top: calc(var(--space-2xl) + 48px);
+    z-index: 30;
+}
+
+.header_link {
     display: block;
     position: relative;
     z-index: 20;

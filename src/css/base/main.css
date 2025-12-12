@@ -35,3 +35,15 @@ p{
     font-size: var(--texte-texte-2);
     font-family: Comic Sans MS;
 }
+
+button,
+input, 
+textarea,
+select{
+    appearance: radio-button;
+    border: none;
+    background: var(--jaune-ocre);
+    outline: none;
+    padding: 0;
+    cursor: poniter;
+}

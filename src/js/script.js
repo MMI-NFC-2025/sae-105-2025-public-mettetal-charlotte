@@ -15,7 +15,6 @@ if (toggle && nav) {
     });
 }
 
-// Carrousel simple pour la page artiste
 function initCarousel(root) {
     const track = root.querySelector('.carousel__track');
     const slides = Array.from(root.querySelectorAll('.carousel__slide'));
@@ -25,12 +24,11 @@ function initCarousel(root) {
     if (!track || slides.length === 0) return;
     let index = 0;
 
-    // construire les dots
     slides.forEach((s, i) => {
         const btn = document.createElement('button');
         btn.className = 'carousel__dot';
-        btn.setAttribute('role','tab');
-        btn.setAttribute('aria-selected', i===0 ? 'true' : 'false');
+        btn.setAttribute('role', 'tab');
+        btn.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
         btn.dataset.index = i;
         btn.addEventListener('click', () => goTo(i));
         dotsWrap.appendChild(btn);
@@ -39,28 +37,27 @@ function initCarousel(root) {
     function update() {
         track.style.transform = `translateX(-${index * 100}%)`;
         const dots = dotsWrap.querySelectorAll('.carousel__dot');
-        dots.forEach((d,i)=> d.setAttribute('aria-selected', String(i===index)));
+        dots.forEach((d, i) => d.setAttribute('aria-selected', String(i === index)));
     }
 
-    function goTo(i){
+    function goTo(i) {
         index = (i + slides.length) % slides.length;
         update();
     }
 
-    if (prevBtn) prevBtn.addEventListener('click', ()=> goTo(index-1));
-    if (nextBtn) nextBtn.addEventListener('click', ()=> goTo(index+1));
+    if (prevBtn) prevBtn.addEventListener('click', () => goTo(index - 1));
+    if (nextBtn) nextBtn.addEventListener('click', () => goTo(index + 1));
 
-    // support clavier: flèches gauche/droite quand focus dans le carrousel
-    root.addEventListener('keydown', (e)=>{
-        if (e.key === 'ArrowLeft') { goTo(index-1); }
-        if (e.key === 'ArrowRight') { goTo(index+1); }
+
+    root.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') { goTo(index - 1); }
+        if (e.key === 'ArrowRight') { goTo(index + 1); }
     });
 
-    // initial
     update();
 }
 
-document.addEventListener('DOMContentLoaded', ()=>{
+document.addEventListener('DOMContentLoaded', () => {
     const car = document.querySelector('.carousel');
     if (car) initCarousel(car);
 });

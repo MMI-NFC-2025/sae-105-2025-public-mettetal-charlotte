@@ -5,7 +5,7 @@
     color: black;
     display: flex;
     flex-direction: column;
-    padding: var(--space-4px);
+    padding: var(--space-16px);
     visibility: visible;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .menu__list {
-    position: relative;
+    position: center;
     z-index: 3;
     margin-top: 6rem;
 }
@@ -32,7 +32,7 @@
 }
 
 .menu-btn {
-    position: relative;
+    position: relative;    
     width: 30px;
     height: 30px;
     display: flex;
@@ -41,7 +41,7 @@
 }
 
 .menu-btn_bar {
-    background: var(--bleu-clair);
+    background: black;
     height: 2px;
     width: 100%;
     position: absolute;
@@ -51,10 +51,6 @@
 }
 
 .menu-btn_bar--top {
-    top: 6px;
-}
-
-.menu-btn_bar--middle {
     top: 6px;
 }
 
