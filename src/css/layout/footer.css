@@ -8,9 +8,31 @@ footer {
     font-size: var(--texte-texte-2);
 }
 
-.footer_nav{
+.footer_nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: var(--space-12px);
     margin: var(--space-12px) 0;
+}
+
+footer ul,
+.footer ul {
+    display: flex;
+    gap: var(--space-8px);
+    align-items: center;
+    list-style: none;
+    padding: 3;
+    margin: 0;
+}
+
+footer li,
+.footer__item {
+    margin: 0;
+}
+
+footer a img,
+.footer__link img {
+    width: 28px;
+    height: auto;
+    display: block;
 }

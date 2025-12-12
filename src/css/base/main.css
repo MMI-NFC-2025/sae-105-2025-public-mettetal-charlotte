@@ -36,7 +36,7 @@ p{
     font-family: Comic Sans MS;
 }
 
-menu-btn,{
+menu-btn{
     border: none;
     background: none;
     cursor: pointer;
@@ -49,9 +49,15 @@ textarea,
 select{
     appearance: radio-button;
     border: none;
-    background: var(--jaune-ocre);
+    background: var(--jaune);
     outline: none;
-    padding: 0;
+    padding: 10;
     cursor: pointer;
     border-radius: 25px;
 }
+
+.u-list-unstyled{
+    list-style: none;
+    padding: 2;
+    margin: 0;
+}  
