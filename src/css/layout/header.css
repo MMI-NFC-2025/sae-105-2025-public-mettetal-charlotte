@@ -5,18 +5,15 @@
     padding: var(--space-2xl) var(--space-4xl);
 }
 
-/* place le logo / titre à gauche */
 .header__logo {
     display: flex;
     flex-direction: column;
     gap: var(--space-8px);
 }
 
-/* bouton menu positionné à droite, sous la première image (fallback) */
 .header__menu-btn {
     position: absolute;
     right: var(--space-4xl);
-    top: calc(var(--space-2xl) + 48px);
     z-index: 30;
 }
 

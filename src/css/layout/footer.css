@@ -9,7 +9,7 @@ footer {
 }
 
 .footer_nav {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(3, 1fr);
     gap: var(--space-12px);
     margin: var(--space-12px) 0;
