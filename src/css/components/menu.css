@@ -32,12 +32,14 @@
 }
 
 .menu-btn {
-    position: relative;    
+    position: relative;
     width: 30px;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: transparent !important;
+    border-radius: 0 !important;
 }
 
 .menu-btn_bar {

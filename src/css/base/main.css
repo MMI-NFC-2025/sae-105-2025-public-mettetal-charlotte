@@ -36,6 +36,13 @@ p{
     font-family: Comic Sans MS;
 }
 
+menu-btn,{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
 button,
 input, 
 textarea,
@@ -45,5 +52,6 @@ select{
     background: var(--jaune-ocre);
     outline: none;
     padding: 0;
-    cursor: poniter;
+    cursor: pointer;
+    border-radius: 25px;
 }
