@@ -1,7 +1,15 @@
 .footer {
     background: var(--jaune-ocre);
-    background-size: cover;
     padding: var(--space-6px);
 }
 
-.footer__text
+.footer__text {
+    font-size: var(--texte-texte-2);
+}
+
+.footer_nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-12px);
+    margin: var(--space-12px) 0;
+}

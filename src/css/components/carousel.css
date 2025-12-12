@@ -1,0 +1,53 @@
+
+.carousel{
+  position: relative;
+  max-width: 720px;
+  margin: var(--space-12px) 0;
+  overflow: hidden;
+}
+.carousel__track{
+  display: flex;
+  transition: transform 300ms ease;
+}
+.carousel__slide{
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.carousel__slide img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.carousel__btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 0.9rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.carousel__btn--prev{ left: 8px; }
+.carousel__btn--next{ right: 8px; }
+.carousel__dots{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 8px;
+  display: flex;
+  gap: 8px;
+}
+.carousel__dot{
+  width: 10px;
+  height: 10px;
+  background: rgba(255,255,255,0.6);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.carousel__dot[aria-selected="true"]{
+  background: #ffffff;
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.12) inset;
+}
